@@ -1,3 +1,10 @@
+r'''
+Alex Yazdani
+21 November 2024
+
+fibonacci.py
+Return the nth term of the fibonacci sequence, recursively and non-recursively.
+'''
 def fibonacci(n):
     if n < 2:
         return n

@@ -4,15 +4,6 @@ Alex Yazdani
 
 find_unique_char.py
 Write a Python function that takes a string as input and returns the first non-repeating character in the string. If all characters repeat, return None.
-
-Input: "swiss"
-Output: "w"
-
-Input: "level"
-Output: "v"
-
-Input: "aabbcc"
-Output: None
 '''
 
 def find_unique_char(str):

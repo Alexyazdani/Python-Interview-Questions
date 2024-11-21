@@ -4,8 +4,8 @@ Alex Yazdani
 
 palindrome.py
 Return True if input string is a palindrome.
-
 '''
+
 def palindrome(s):
     return (s[::-1] == s)
 

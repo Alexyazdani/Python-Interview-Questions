@@ -8,14 +8,11 @@ Write a Python function that takes a string as input and returns the first non-r
 
 def find_unique_char(str):
     char_count = {}
-
     for c in str:
         char_count[c] = char_count.get(c, 0) + 1
-
     for c in str:
         if char_count[c] == 1:
             return c
-    
     return None
 
 if __name__ == "__main__":

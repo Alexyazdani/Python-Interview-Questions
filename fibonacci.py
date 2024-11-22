@@ -18,4 +18,8 @@ def fibonacci_recursive(n):
     if n < 2:
         return n
     return fibonacci_recursive(n - 1) + fibonacci_recursive(n - 2)
-        
+
+if __name__ == "__main__":
+    print(fibonacci(5), fibonacci_recursive(5))
+    print(fibonacci(11), fibonacci_recursive(11))
+    print(fibonacci(20), fibonacci_recursive(20))

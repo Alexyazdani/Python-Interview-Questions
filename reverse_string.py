@@ -1,6 +1,6 @@
 r'''
 Alex Yazdani
-21 November 2024
+24 November 2024
 
 reverse_string.py
 Reverse the order of words in a string.

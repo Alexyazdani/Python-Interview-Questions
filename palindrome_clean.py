@@ -4,7 +4,7 @@ Alex Yazdani
 
 palindrome_clean.py
 Write a function that returns True if the input string is a valid palindrome, ignoring all non-alphanumeric characters and case. Return False otherwise.
-Similar to palindrom.py but considers punctuation and spaces
+Similar to palindrom.py but ignores punctuation and spaces.
 '''
 
 

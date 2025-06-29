@@ -11,8 +11,7 @@ def parens_balanced(str):
     for c in str:
         if c == "(": balance += 1
         elif c == ")": balance -= 1
-        if (balance < 0):
-            return False
+        if (balance < 0): return False
     return (balance == 0)
 
 if __name__ == "__main__":

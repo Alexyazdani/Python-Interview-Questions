@@ -1,0 +1,5 @@
+Total Faults Analyzed : 185000
+Detected Faults       : 180200
+Undetected Faults     : 4800
+Redundant Faults      : 3000
+Fault Coverage        : 97.4%

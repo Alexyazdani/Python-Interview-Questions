@@ -1,0 +1,3 @@
+Detected 180200 out of 185000 faults.
+Fault coverage is 97.4%.
+WARNING: Fault coverage below threshold!

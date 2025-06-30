@@ -1,0 +1,2 @@
+Detected 198800 out of 200000 faults.
+Fault coverage is 99.4%.

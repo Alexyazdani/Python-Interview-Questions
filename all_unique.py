@@ -2,7 +2,7 @@ r'''
 Alex Yazdani
 9 July 2025
 
-word_pattern.py
+all_unique.py
 Write a function that returns True if all characters in a string are unique (no repeats), False otherwise.
 '''
 

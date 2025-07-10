@@ -1,0 +1,7 @@
+apple
+cat
+elephant
+dog
+banana
+to
+strawberry

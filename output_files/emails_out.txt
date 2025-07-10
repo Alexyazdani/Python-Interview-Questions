@@ -1,0 +1,3 @@
+admin@my-site.com
+jane99@work-mail.org
+john.doe@example.com

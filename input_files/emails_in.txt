@@ -1,0 +1,3 @@
+Hello from john.doe@example.com.
+Contact jane99@work-mail.org or admin@my-site.com for support.
+john.doe@example.com already contacted us.

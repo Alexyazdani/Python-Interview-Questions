@@ -13,7 +13,7 @@ import re
 def extract_emails(infile, outfile):
     with open("input_files/emails_in.txt", "r") as fin:
         text = fin.read()
-        matches = re.findall(r'\S+@\S+\.(?:com|org)', text)
+        matches = re.findall(r'\S+@\S+\.(?:com|org|edu|net|gov)', text)
         unique_emails = sorted(set(matches))
     with open("output_files/emails_out.txt", "w") as fout:
         for email in unique_emails:

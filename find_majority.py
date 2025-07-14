@@ -9,8 +9,14 @@ You can assume such an element always exists.
 
 
 def find_majority(nums: list[int]) -> int:
-    # Your code here
-    pass
+    nums_dict = {}
+    half = len(nums) // 2
+    for num in nums:
+        count = nums_dict.get(num,0)+1
+        if count > half:
+            return num
+        nums_dict[num] = count
+    return None
 
 
 if __name__ == "__main__":
